@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+ <html lang="id">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Daftar Produk MixidShop</title>
+     <style>
+         * {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             font-family: Arial, sans-serif;
+         }
+         body {
+             background-color: #f5f5f5;
+             padding: 20px;
+         }
+         .container {
+             max-width: 1200px;
+             margin: 0 auto;
+             background-color: #fff;
+             padding: 25px;
+             border-radius: 10px;
+             box-shadow: 0 0 15px rgba(0,0,0,0.1);
+         }
+         h1 {
+             text-align: center;
+             color: #333;
+             margin-bottom: 30px;
+             padding-bottom: 10px;
+             border-bottom: 3px solid #2563eb;
+         }
+         .product-grid {
+             display: grid;
+             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+             gap: 20px;
+         }
+         .product-card {
+             background-color: #fafafa;
+             padding: 15px;
+             border-radius: 8px;
+             box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+             transition: transform 0.2s ease;
+         }
+         .product-card:hover {
+             transform: translateY(-3px);
+         }
+         .product-card h3 {
+             font-size: 18px;
+             color: #2d3748;
+             margin-bottom: 10px;
+             min-height: 40px;
+         }
+         .product-card p {
+             font-size: 14px;
+             color: #4a5568;
+             margin-bottom: 15px;
+         }
+         .product-card a {
+             display: inline-block;
+             padding: 8px 16px;
+             background-color: #2563eb;
+             color: #fff;
+             text-decoration: none;
+             border-radius: 5px;
+             font-size: 14px;
+             transition: background-color 0.2s ease;
+         }
+         .product-card a:hover {
+             background-color: #1d4ed8;
+         }
+     </style>
+ </head>
+ <body>
+     <div class="container">
+         <h1>Daftar Produk MixidShop</h1>
+         <div class="product-grid">
+             <div class="product-card">
+                 <h3>PARFUM MAINDOFT</h3>
+                 <p>Parfum pria/wanita dengan varian aroma pilihan</p>
+                 <a href="#">Lihat Produk</a>
+             </div>
+             <div class="product-card">
+                 <h3>KIPAS TANGAN MODOFO</h3>
+                 <p>Kipas tangan portabel dengan desain modern</p>
+                 <a href="#">Lihat Produk</a>
+             </div>
+             <div class="product-card">
+                 <h3>CELANA FLANEL KEKINIAN</h3>
+                 <p>Celana bahan flanel dengan gaya trendy</p>
+                 <a href="#">Lihat Produk</a>
+             </div>
+             <!-- Tambahkan produk lain sesuai kebutuhan -->
+         </div>
+     </div>
+ </body>
+ </html>
